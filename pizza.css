@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #f5f5f5;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+h2{
+    padding-left:1.5em ;
+}
+.liens{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 1.5em;
+    width: 600px;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:rgb(230, 15, 15);
+}
+.picture1{
+    filter: brightness(50%);
+    height: 600px;
+    width: 100%;
+}
+.plan{
+    display: block;
+    padding-top:20px ;
+}
+.billy{
+    position: absolute;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+    left: 35%;
+    top:25%;
+}
+.pizza_billy{
+    position: relative;
+    top:0.6em;
+}
+p{
+    text-align: center;
+}
+.btn{
+    left: 30%;
+    margin-left: 120px;
+    width:150px;
+    height:30px;
+    font-size: 0.8em;
+    background-color: red;
+    text-align:center;
+    border-radius: 20px;
+    transition: all 0.4s ease-in;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color:red;
+}
+.livraison{
+    display: block;
+    font-size: 3em;
+    text-align: center;
+}
+.service{
+    display: flex;
+    justify-content: center;   
+}
+.service1{
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+    width: 400px;
+    height: 250px;
+    border:1px solid #d8d6d6;
+    border-radius: 5px;
+    margin: 1px 1em 0 1em;
+}
+.service2{
+  background-color: white;
+  text-align: center;
+  padding: 2em;
+    width: 400px;
+    height: 250px;
+    border:1px solid #d8d6d6;
+    border-radius: 5px;
+}
+iframe{
+    display: block;
+    padding-bottom: 80px;
+}
+i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: skyblue;
+    padding: 1.5em;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#pizza{
+    background-color:#d43c61;
+}
+.btn1 {
+    position: relative;
+    left: 45%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    width:100px;
+    height:30px;
+    margin: 1.5em;
+    font-size: 1em;
+    background-color: red;
+    text-align:center;
+    border-radius: 20px;   
+}
+.mappy{
+    margin-left: 360px;
+    }
+.carte{
+    background-color: white;
+}
+.contact,.plan{
+    display: block;
+    padding-top:20px ;
+    font-size: 3em;
+    text-align: center;
+}
+.prenom,.nom,.email,.telephone,.messages{
+    width: 600px;
+    display:flex;
+    flex-direction: column;
+    margin: 1% 0;
+}
+.contact_finale{
+    margin-top: -40px;
+    padding: 0;
+    background-color: skyblue;
+    color:white;
+}
+.formulaire{
+    height: 400px;
+    margin-left: 360px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+input{
+    border-radius:5px;
+    border: none;    
+}
+textarea{
+    border-radius:5px;
+    border: transparent;
+}
+.btn2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    left:260px;
+    width:120px;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 2em;
+    padding: 6px;
+    border: 1px solid black;
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;   
+    color: #cdced0;
+    border-bottom:2px solid #cdced0;
+    margin: 0px 70px 20px;
+    padding-bottom: 1em ;
+}
+footer{
+    position: relative;
+    background-color: #383b43;
+    height: 250px;
+}
+ul{
+    list-style-type: none;    
+}
+ul.pizaa{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+li{
+    padding: 0.2em;
+}
+.copy{
+    display: block;
+    text-align: center;
+}
+.image{
+    position: fixed;
+    left: 96%;
+    top: 90%;
+    display: flex;
+    width: 50px;
+	height: 50px;   
+}
+    
+    
+
+
+
