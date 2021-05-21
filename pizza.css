@@ -71,7 +71,7 @@ a:hover{
     position:absolute;
     content:"";
     z-index: -1;
-    background-image: url("/images/pizza-banner.jpg");
+    background-image: url("images/pizza-banner.jpg");
      top:0;
     left:0; 
      justify-content: center;
