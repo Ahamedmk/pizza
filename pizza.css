@@ -29,13 +29,15 @@ h2{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    height: 40px; 
+    /* height: 40px;  */
     color: white;
     /* background-color: black;  */
     /*border:2px solid red;*/
 }
 .navi{
     padding: 0 50px;
+    text-decoration: none;
+    list-style-type: none;
     /* font-size: 4px; */
 }
 /* .navi:nth-child(1){
@@ -289,9 +291,10 @@ i{
     margin: 0 auto;
 }
 .contact_finale{
-    margin-top: -40px;
+    position:relative;
+    /* margin-top: -40px; */
     /* margin-bottom: -20px; */
-    height: 500px;
+    /* height: 500px; */
     
     /* padding: 0; */
     background-color: skyblue;
@@ -301,14 +304,18 @@ i{
     /* padding: 0 350px; */
     margin: 0 auto;
     width: 550px;
-    /* height: 400px;
-    margin-left: 360px;
+    /* height: 400px; */
+    /*margin-left: 360px;
     display:flex;
     flex-direction: column;
     justify-content: center; */
     /* border: 1px solid black;    */
 }
 @media screen and (max-width: 564px){
+
+    html{
+        font-size: 12px;
+    }
     .formulaire{
         /* padding: 0 350px; */
         margin: 0 auto;
@@ -320,6 +327,11 @@ i{
         justify-content: center; */
         /* border: 1px solid black;    */
     }
+    input{
+        border-radius:5px;
+        height: 60px;
+        border: none;    
+    }
     }
 input{
     border-radius:5px;
@@ -329,21 +341,22 @@ textarea{
     border-radius:5px;
     border: transparent;
 }
-.btn2{
-    /* position: relative; */
-    /* display: flex; */
+ .btn2{
+    position: relative;
     display: block;
     text-align: center;
+    top: -10px;
     font-size: 1em;
-    /* left:260px; */
+    /* left:300px; */
     width:120px;
-    background-color: black;
+    background-color: rgb(12, 12, 12);
     border-radius: 999px;
-    margin: 10px auto;
+    /* margin: 10px 50px 50px; */
+    margin: 20px auto;
     /* margin-bottom: 20px; */
     padding: 6px;
     /* border: 1px solid black; */
-}
+} 
 .footer{
     display:flex;
     justify-content: space-evenly;   
@@ -362,11 +375,11 @@ textarea{
     }
 }
 footer{
-    /* position: relative; */
     background-color: #383b43;
+    color: white;
     /* height: 250px; */
 }
-ul{
+.foot{
     display:flex;
     flex-direction: column;
     justify-content: center; 
@@ -393,6 +406,16 @@ ul{
     display: flex;
     width: 50px;
 	height: 50px;   
+}
+@media screen and (max-width: 592px){
+    .image{
+        position: fixed;
+        left: 80%;
+        top: 90%;
+        display: flex;
+        width: 50px;
+        height: 50px;   
+    }
 }
     
     
