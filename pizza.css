@@ -230,8 +230,30 @@ p{
         margin: 20px auto;
         top: 0; 
         left: 0; 
+        width:500px; 
+        height:300px;
+    }
+  }
+  @media screen and (max-width: 522px){
+    .resp-iframe { 
+        /* position: absolute;  */
+        display: block;
+        margin: 20px auto;
+        top: 0; 
+        left: 0; 
+        width:400px; 
+        height:300px;
+    }
+  }
+  @media screen and (max-width: 413px){
+    .resp-iframe { 
+        /* position: absolute;  */
+        display: block;
+        margin: 20px auto;
+        top: 0; 
+        left: 0; 
         width:300px; 
-        height:150px;
+        height:300px;
     }
   }
 /* iframe{
@@ -346,7 +368,7 @@ textarea{
     display: block;
     text-align: center;
     top: -10px;
-    font-size: 1em;
+    font-size: 1.5em;
     /* left:300px; */
     width:120px;
     background-color: rgb(12, 12, 12);
@@ -369,15 +391,12 @@ textarea{
     .footer{
         display:flex;
         flex-direction: column;
-        /* margin: 0 auto; */
-    /* justify-content: center; */
-    align-items: center;
+        align-items: center;
     }
 }
 footer{
     background-color: #383b43;
     color: white;
-    /* height: 250px; */
 }
 .foot{
     display:flex;
@@ -387,21 +406,13 @@ footer{
     width: 256px;
     list-style-type: none;    
 }
-/* ul.pizaa{
-    display: flex;
-    flex-direction: column;
-    height: 120px;
-} */
-/* li{
-    padding: 0.2em;
-} */
 .copy{
     display: block;
     text-align: center;
 }
 .image{
     position: fixed;
-    left: 90%;
+    left: 95%;
     top: 90%;
     display: flex;
     width: 50px;
@@ -410,7 +421,7 @@ footer{
 @media screen and (max-width: 592px){
     .image{
         position: fixed;
-        left: 80%;
+        left: 85%;
         top: 90%;
         display: flex;
         width: 50px;
