@@ -1,3 +1,9 @@
+
+*,::before ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding:0;
@@ -343,25 +349,39 @@ textarea{
     justify-content: space-evenly;   
     color: #cdced0;
     border-bottom:2px solid #cdced0;
-    margin: 0px 70px 20px;
+    /* margin: 0px 70px 20px; */
     padding-bottom: 1em ;
 }
+@media screen and (max-width: 634px){
+    .footer{
+        display:flex;
+        flex-direction: column;
+        /* margin: 0 auto; */
+    /* justify-content: center; */
+    align-items: center;
+    }
+}
 footer{
-    position: relative;
+    /* position: relative; */
     background-color: #383b43;
-    height: 250px;
+    /* height: 250px; */
 }
 ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 256px;
     list-style-type: none;    
 }
-ul.pizaa{
+/* ul.pizaa{
     display: flex;
     flex-direction: column;
     height: 120px;
-}
-li{
+} */
+/* li{
     padding: 0.2em;
-}
+} */
 .copy{
     display: block;
     text-align: center;
