@@ -31,23 +31,13 @@ h2{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    /* height: 40px;  */
     color: white;
-    /* background-color: black;  */
-    /*border:2px solid red;*/
 }
 .navi{
     padding: 0 50px;
     text-decoration: none;
     list-style-type: none;
-    /* font-size: 4px; */
 }
-/* .navi:nth-child(1){
-    margin-right: auto;
-} */
-/* .billy1{
-    font-size: 22px;
-} */
 a{
     text-align: center;
     text-decoration: none;
@@ -68,15 +58,6 @@ a:hover{
         flex-direction: column;
     }   
  }
-
- /* .picture{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    color:#fff;
-    text-align: center;
-} */
 .background-image::before{
     position:absolute;
     content:"";
@@ -97,47 +78,25 @@ a:hover{
     background-size: cover;
     filter: brightness(50%);
 }
-/* .picture1{
-    position: relative;
-    display:block;
-    top:-16px;
-    filter: brightness(50%);
-    height: 600px;
-    width: 100%
-} */
 .plan{
     display: block;
     padding-top:20px ;
 }
 .billy{
-    /* position: absolute; */
     margin: 0 auto;
     margin-bottom: 150px;
     margin-top: 20px;
-    /* width: 500px; */
     font-size: 1.8em;
     text-align: center;
     color: white;
-    /* left: 37.5%; */
-    /* top:50%;
-    transform:translate(-50% -50%); */
-    /* border: 1px solid black; */
 }
-/* .pizza_billy{
-    position: relative;
-    top:0.6em;
-} */
 p{
     text-align: center;
 }
 .btn{
     display: block;
-    /* left: 30%; */
-    /* margin:5px auto 0; */
     margin-top: 20px;
-    
     width:10rem;
-    /* height:30px; */
     font-size: 0.8em;
     background-color: red;
     text-align:center;
@@ -147,15 +106,14 @@ p{
 .btn:hover{
     background-color: whitesmoke;
     color:red;
+    border:solid red;
 }
 
 .billy2{
-    /* position: absolute; */
     display:block;
     background-color: #f5f5f5;
     padding-top: 20px;
     padding-bottom: 30px;
-    /* border: 1px solid tomato; */
 }
 .livraison{
     display: block;
@@ -163,41 +121,33 @@ p{
     text-align: center;
 }
 .service{
-    /* position: relative; */
     display: flex;
     justify-content: center; 
     padding-top: 20px;
-    /* align-items: center; */
     margin: 0 auto;
-    /* width: 950px;   */
-    /* border: 1px solid black; */
 }
 .service1{
     background-color: white;
     text-align: center;
     margin: 0 4px;
     padding: 2em 4em;
-    /* width: 400px; */
     height: 250px;
     border:1px solid #d8d6d6;
     border-radius: 5px;
-    /* margin: 1px 1em 0 1em; */
 }
 .service2{
   background-color: white;
   text-align: center;
   margin: 0 4px;
   padding: 2em;
-    /* width: 400px; */
-    height: 250px;
-    border:1px solid #d8d6d6;
-    border-radius: 5px;
+  height: 250px;
+  border:1px solid #d8d6d6;
+  border-radius: 5px;
 }
 @media screen and (max-width: 954px){
     .service{
         display: flex;
         flex-direction:column ;
-        /* justify-content: center; */
         align-items: center;
         margin: 0 auto;
     }
@@ -215,10 +165,8 @@ p{
     position: relative; 
     margin: 0 auto;
     overflow: hidden; 
-    /* padding-top: 56.25%;  */
   }
   .resp-iframe { 
-    /* position: absolute;  */
     display: block;
     margin: 20px auto;
     top: 0; 
@@ -230,7 +178,6 @@ p{
 
   @media screen and (max-width: 625px){
     .resp-iframe { 
-        /* position: absolute;  */
         display: block;
         margin: 20px auto;
         top: 0; 
@@ -241,7 +188,6 @@ p{
   }
   @media screen and (max-width: 522px){
     .resp-iframe { 
-        /* position: absolute;  */
         display: block;
         margin: 20px auto;
         top: 0; 
@@ -252,7 +198,6 @@ p{
   }
   @media screen and (max-width: 413px){
     .resp-iframe { 
-        /* position: absolute;  */
         display: block;
         margin: 20px auto;
         top: 0; 
@@ -261,12 +206,6 @@ p{
         height:300px;
     }
   }
-/* iframe{
-    width: 100%; */
-    
-    /* display: block; */
-    /* padding-bottom: 80px; */
-/* } */
 i{
     display: flex;
     justify-content: center;
@@ -284,25 +223,21 @@ i{
 }
 .btn1 {
     display: block;
-    /* left: 30%; */
-    /* margin:5px auto 0; */
     margin: 40px auto;
     padding:5px 20px;
     width:11rem;
-    /* height:30px; */
     font-size: 1.5em;
     background-color: red;
     text-align:center;
     border-radius: 999999px;
     transition: all 0.4s ease-in;   
 } 
-
-/* .mappy{
-    margin-left: 360px;
-    } */
+.btn1:hover{
+    background-color: whitesmoke;
+    color:red;
+    border:solid red;
+}   
 .carte{
-    /* position: absolute;
-    width: 100%; */
     background-color: white;
 }
 .contact,.plan{
@@ -312,33 +247,20 @@ i{
     text-align: center;
 }
 .prenom,.nom,.email,.telephone,.messages{
-    /* width: 600px; */
     display:flex;
     flex-direction: column;
     margin: 0 auto;
 }
 .contact_finale{
-    /* position:relative; */
-    /* margin-top: -40px; */
     padding-bottom: 20px;
-    /* height: 500px; */
-    
-    /* padding: 0; */
     background-color: skyblue;
     color:white;
 }
 .formulaire{
     display: block;
     padding-top: 20px;
-    /* padding:10 350px; */
     margin: 0 auto;
     width: 550px;
-    /* height: 400px; */
-    /*margin-left: 360px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* border: 1px solid black;    */
 }
 @media screen and (max-width: 564px){
 
@@ -359,32 +281,29 @@ i{
     input{
         border-radius:5px;
         height: 60px;
-        border: none;    
+        border: none; 
+           
     }
     }
 input{
     border-radius:5px;
-    border: none;    
+    border: none; 
+    padding-left:5px;   
 }
 textarea{
     border-radius:5px;
     border: transparent;
 }
  .btn2{
-    /* position: relative; */
     display: block;
     text-align: center;
     top: -10px;
     font-size: 1.2em;
-    /* left:300px; */
     width:120px;
     background-color: rgb(12, 12, 12);
     border-radius: 999px;
-    /* margin: 10px 50px 50px; */
     margin: 20px auto;
-    /* margin-bottom: 20px; */
     padding: 6px;
-    /* border: 1px solid black; */
 } 
 .footer{
     display:flex;
@@ -392,7 +311,6 @@ textarea{
     padding-top: 20px;  
     color: #cdced0;
     border-bottom:2px solid #cdced0;
-    /* margin: 0px 70px 20px; */
     padding-bottom: 1em ;
 }
 @media screen and (max-width: 634px){
@@ -404,6 +322,7 @@ textarea{
     }
 }
 footer{
+    padding-bottom: 150px;
     background-color: #383b43;
     color: white;
 }
@@ -417,6 +336,7 @@ footer{
 }
 .copy{
     display: block;
+    padding-top: 20px;
     text-align: center;
 }
 .image{
